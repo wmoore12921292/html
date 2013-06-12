@@ -1,22 +1,74 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Resident Lecure Evaluations</title>
+</head>
+<body>
 
-# Custom for Visual Studio
-*.cs     diff=csharp
-*.sln    merge=union
-*.csproj merge=union
-*.vbproj merge=union
-*.fsproj merge=union
-*.dbproj merge=union
+<header>
 
-# Standard to msysgit
-*.doc	 diff=astextplain
-*.DOC	 diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
-*.PDF	 diff=astextplain
-*.rtf	 diff=astextplain
-*.RTF	 diff=astextplain
+  <hgroup>
+    <h1>Stony Brook Radiology</h1>
+    <h2>Daily Evalutions</h2>
+  </hgroup>
+
+  <nav>
+    <ul>
+      <li><a href="http://www.stonybrookmedicalcenter.org/radiology/">Home</a></li>
+      <li><a href="http://www.stonybrookmedicalcenter.org/radiology/Training">About</a></li>
+    </ul>
+  </nav>
+
+</header>
+<center>
+
+<FORM METHOD=POST ACTION="mailto:william.moore@stonybrook.edu" ENCTYPE="text/plain">
+<INPUT TYPE="text" NAME="Lecture name"> : Lecture name <BR>
+<INPUT TYPE="text" NAME="Attneding Name"> : Attending name <BR>
+comments <BR>
+
+<TEXTAREA NAME="COMMENTS" ROWS="10" WRAP="hard">
+</TEXTAREA>
+
+<INPUT NAME="redirect" TYPE="hidden" VALUE="index.html">
+<INPUT NAME="NEXT_URL" TYPE="hidden" VALUE="index.html">
+<BR>
+
+<INPUT TYPE="submit" VALUE="Send">
+<INPUT TYPE="reset" VALUE="Clear">
+</FORM>
+
+</center>
+<section>
+
+<article>
+
+<h1>Educational Evaluations<h1>
+
+<h2>How to Evaluate</h2>
+
+<p>The purpose of this web address is to get your feedback about attending lectures.  We will not collect any personal information.  This is simply a process improvement process.  Please be honest. </p>
+
+<figure>
+  <img src="http-SBRAD.gif" alt="Stony Brook Logo">
+</figure>
+
+</article>
+
+</section>
+
+<footer>
+
+<small>Copyright © 2013-2015 William Moore</small>
+
+  <nav>
+    <ul>
+      <li><a href="http://www.stonybrookmedicalcenter.org/radiology/">Home</a></li>
+      <li><a href="http://www.stonybrookmedicalcenter.org/radiology/Training">About</a></li>
+    </ul>
+  </nav>
+
+</footer>
+</body>
+</html>
